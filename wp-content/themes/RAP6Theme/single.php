@@ -7,7 +7,6 @@
 
 get_header();
 ?>
-this is single.php
 <div class="flex flex-center-j">
 	<section id="latestjournals" class="flex width90">
 		<div class="width75">

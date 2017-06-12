@@ -15,7 +15,6 @@ $args = array(
 
 $query = new WP_Query( $args );
 ?>
-this is home.php
 <div class="flex flex-center-j">
 	<section id="latestjournals" class="flex width90">
 		<div class="width75">

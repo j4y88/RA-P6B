@@ -1,10 +1,4 @@
 <?php
-/**
- * The template for displaying archive pages.
- *
- * @package RED_Starter_Theme
- */
-
 get_header();
 $args = array(
 'posts_per_page' => 10,
@@ -15,7 +9,6 @@ $args = array(
 
 $query = new WP_Query( $args );
 ?>
-this is date.php
 <div class="flex flex-center-j">
 	<section id="latestjournals" class="flex width90">
 		<div class="width75">

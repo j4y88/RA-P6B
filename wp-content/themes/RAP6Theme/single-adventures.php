@@ -1,7 +1,6 @@
 <?php
 get_header();
 ?>
-this is single-adventures.php
 <div class="flex flex-center-j">
 	<section id="adventureArticle" class="flex width50">
 		<?php if (have_posts()) { 

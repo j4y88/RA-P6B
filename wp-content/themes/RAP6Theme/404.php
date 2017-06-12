@@ -8,7 +8,6 @@
  */
 
 get_header(); ?>
-this is 404.php
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 

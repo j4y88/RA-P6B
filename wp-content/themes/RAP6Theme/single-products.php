@@ -1,7 +1,6 @@
 <?php 
 get_header();
 ?>
-this is the single-products.php
 <body class='page-fit'>
 <div class='flex flex-center-j marginB40 marginT40'>
 	<div class='width90 flex marginB40'>

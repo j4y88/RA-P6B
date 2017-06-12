@@ -6,7 +6,6 @@
  */
 
 get_header(); ?>
-this is page.php
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 

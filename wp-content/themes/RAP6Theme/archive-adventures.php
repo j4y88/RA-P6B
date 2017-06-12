@@ -1,7 +1,6 @@
 <?php
 get_header();
 ?>
-This is archive-adventures.php
 <div class='flex flex-col flex-center-a'>
 	<div class='flex flex-col width90 flex-center-a'>
 		<h1 class="horizontalLine width100 center-text paddingB40">Latest Adventures</h1>

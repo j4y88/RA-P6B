@@ -1,20 +1,8 @@
 <?php
-/**
- * The template for displaying comments.
- *
- * @package RED_Starter_Theme
- */
-
-/*
- * If the current post is protected by a password and
- * the visitor has not yet entered the password we will
- * return early without loading the comments.
- */
 if ( post_password_required() ) {
 	return;
 }
 ?>
-this is comments.php
 <div id="comments" class="comments-area">
 
 	<?php // You can start editing here -- including this comment! ?>
