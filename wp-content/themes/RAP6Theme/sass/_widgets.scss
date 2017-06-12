@@ -1,0 +1,105 @@
+/*--------------------------------------------------------------
+# Widgets
+--------------------------------------------------------------*/
+
+.widget {
+	margin: 0 0 $base__space-unit;
+
+	/* Make sure select elements fit in widgets. */
+	select {
+		max-width: 100%;
+	}
+}
+
+/* Search widget. */
+.widget_search .search-submit {
+	display: none;
+}
+
+/* Footer widget */
+
+.textwidget {
+	padding: 20px 15px 25px 0px;
+	color: #fff;
+	h4 {
+		margin: 0px;
+		padding: 15px 0px;
+		color: orange;
+	}
+	p {
+		margin: 0px;
+		padding: 10px 0px;
+		color: white;
+	}
+	div {
+		color: white;
+		p {
+			margin: 0px;
+		}
+	}
+
+}
+
+aside .textwidget {
+	padding: 10px 5px;
+	color: black;
+	h4 {
+		margin: 0px;
+		padding: 5px 0px;
+		color: black;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+	p {
+		margin: 0px;
+		padding: 5px 0px;
+		color: black;
+	}
+	div {
+		color: black;
+		p {
+			margin: 0px;
+		}
+	}
+
+}
+
+.widget_archive {
+	padding: 10px 5px;
+	color: black;
+	h4 {
+		margin: 0px;
+		padding: 5px 0px;
+		color: black;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+	}
+	ul {
+		color: black;
+		list-style: none;
+		margin: 10px 0px;
+		padding: 0px;
+		li {
+			a{
+				margin: 0px;
+				padding: 5px 0px;
+				text-align: left;
+				color: black;
+				font-family: Merriweather;
+			}
+		}
+	}
+
+}
+
+
+footer .widget_sp_image {
+	img {
+		padding: 35px 0px 25px 0px;
+		height: 45px;
+		width: auto;
+		}
+}
+
+
+

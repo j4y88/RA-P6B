@@ -1,0 +1,439 @@
+/*--------------------------------------------------------------
+# Page Templates
+--------------------------------------------------------------*/
+
+/* Front page */
+p {
+  font-family: Merriweather;
+  font-weight: 100;
+}
+h2 {
+  font-weight: 400;
+  margin: 40px;
+}
+.flex {
+	display: flex;
+}
+.flex1 {
+  flex : 1;
+}
+.flex-grow {
+  flex-grow:1;
+}
+.flex-row {
+	flex-flow: row wrap;
+}
+.flex-col {
+	flex-flow: column wrap;
+}
+.flex-center-a {
+	align-items: center;
+}
+.flex-center-j {
+	justify-content: center;
+}
+.flex-space-between {
+	justify-content: space-between;
+}
+.height30px {
+	height: 30px;
+}
+.height40px {
+  height: 40px;
+}
+.padding10 {
+	padding: 10px;
+}
+.paddingB40 {
+  padding-bottom: 40px;
+}
+.paddingL30 {
+  padding-left: 30px;
+}
+.paddingR30 {
+  padding-right: 30px;
+}
+.paddingH20 {
+  padding: 0px 20px;
+}
+.margin5 {
+  margin: 5px;
+}
+.margin10 {
+  margin: 10px;
+}
+.marginH5 {
+  margin: 0px 5px;
+}
+.marginH10 {
+  margin: 0px 10px;
+}
+.marginH20 {
+  margin: 0px 20px;
+}
+.marginT40 {
+  margin-top: 40px;
+}
+.marginB40 {
+  margin-bottom: 40px;
+}
+.marginB20 {
+  margin-bottom: 20px;
+}
+.marginV10 {
+  margin: 10px 0px;
+}
+.marginV5 {
+  margin: 5px 0px;
+}
+.width100 {
+  width: 100%;
+}
+.width90 {
+  width: 90%;
+}
+.width75 {
+  width: 75%;
+}
+.width50 {
+  width: 50%;
+}
+.white-color {
+  color: white;
+}
+.orange-color{
+  color: orange;
+}
+.home-shop-cell {
+	height:220px;
+	width:175px;
+	border: solid lightgrey;
+	border-width: 3px 1px 1px 1px;
+	margin: 5px;
+	padding: 5px;
+  p{
+    padding: 5px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 15px 0px;
+  }
+  a button{
+    text-transform: uppercase;
+    font-weight: 100;
+  }
+}
+.home-shop-button {
+	color: white;
+	border-style: none;
+  padding: .5rem 1rem;
+}
+.journalThumb {
+  height: 18vw;
+  width: 100%;
+}
+#journeyInfo{
+  p{
+    margin: 5px 0px 0px;
+  }
+  h3 {
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+  }
+}
+.journalCell{
+  height: auto;
+  width: 28vw;
+}
+.journalButton {
+  background-color: transparent;
+  width: 120px;
+  color: black;
+  margin-top: 10px;
+  border: 1px solid grey;
+}
+.journalTxt {
+  color : #248a83;
+  font-weight: bold;
+  letter-spacing: 1px;
+  margin: 5px 0px;
+}
+.journalListButton {
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid #248a83;
+  padding: 5px 13px;
+}
+.journalListImage {
+  position: absolute;
+  height: 35vw;
+  width: 65vw;
+}
+.journalTitleTxt {
+  position: absolute;
+  top:10%;
+  background-color: #248a83;
+  font-family: Novecento;
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #ffffff;
+  padding: 0.5rem 2rem 0.5rem 0.5rem;
+  max-width: 70%;
+}
+.journalDateTxt {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: #248a83;
+  padding: 0.5rem 0.5rem 0.5rem 2rem;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: bold;
+}
+.journalContentTxt {
+  margin: 10px 0px;
+}
+.journalImageCell {
+  position: relative;
+  height: 35vw;
+  width: 60vw;
+}
+.greyBox {
+  border: 1px solid lightgrey;
+  border-width: 3px 1px 1px 1px;
+  padding: 10px;
+}
+.latestImg {
+  width: auto;
+  height: 100%;
+  position: center;
+  overflow: hidden;
+}
+.adventure-grid {
+  width: 100%;
+  height: 70vh;
+}
+.latestPhoto1 {
+  height: 100%;
+  width: 50%;
+  margin-right:10px;
+}
+.latestPhoto2 {
+  height: 50%;
+  width: 100%;
+  margin-bottom:10px;
+}
+.latestPhoto3 {
+  height: 100%;
+  width: 100%;
+  margin-right:10px;
+}
+.latestPhoto4 {
+  height: 100%;
+  width: 100%;
+}
+.latestButton {
+  color: white;
+  background-color: transparent;
+  border: 1px solid white;
+  padding: 5px 13px;
+}
+.lastestMoreButton {
+  background-color: #248a83;
+  color:white;
+  padding: .5rem 1rem;
+  margin: 20px 0px 50px;
+  border-style: none;
+}
+.latestTxt {
+  font-family: Merriweather;
+  font-size: 2.5em;
+  color: white;
+  margin: 15px 0px;
+  line-height: 1.2;
+}
+.latestTxt2 {
+  font-family: Merriweather;
+  font-size: 2em;
+  color: white;
+  margin: 15px 0px 10px 0px;
+  line-height: 1.2;
+}
+.latestTxt3 {
+  font-family: Merriweather;
+  font-size: 1.5em;
+  color: white;
+  margin: 6px 0px 6px 0px;
+  line-height: 1.2;
+}
+.adventureCell {
+  height:90vh;
+  width:100%;
+  min-height: 300px;
+}
+.adventureButton {
+  background-color: transparent;
+  padding: 5px 13px;
+  text-decoration: none;
+  border: 2px solid #248a83;
+}
+.verticalLine {
+  border-right: 1px solid grey;
+  margin-right: 5px;
+}
+.horizontalLine {
+  border-bottom: 1px solid grey;
+  margin-bottom: 5px;
+}
+.footerBG {
+  background-color: black;
+}
+.footerFineSpacing{
+  margin-top: 40px;
+}
+.whitelogo {
+  div:nth-child(2) {
+    display: none; 
+  }
+}
+.greenlogo {
+  div:nth-child(1) {
+    display: none; 
+  }
+}
+
+#navlogo {
+  div {
+    margin: 0px;
+    padding: 0px;
+    img {
+      height: 35px;
+      width: auto;
+    }
+  }
+}
+
+.page-container {
+  width: 84%;
+  margin: 0 auto;
+}
+
+.productThumb {
+  height: 25vh;
+  width: 25vh;
+  object-fit: cover;
+}
+.btn-black, .btn-black:hover, .btn-black:active, .btn-black:visited {
+  border: 1px solid #000;
+  padding: 8px 20px;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn-white, .btn-white:hover, .btn-white:active, .btn-white:visited {
+  border: 1px solid #fff;
+  padding: 8px 20px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.adventure-cell {
+  width: 55vh;
+  height: 55vh;
+  margin: 10px;
+  color: #fff;
+  box-sizing: border-box;
+  padding: 25px 30px;
+  h3 {
+    font-family: 'Merriweather', serif;
+    font-size: 35px;
+    text-transform: none;
+    letter-spacing: .5px;
+    line-height: 1.2;
+  }
+}
+
+#productInfo {
+  h1 {
+    margin: 0px;
+    text-transform: uppercase;
+  }
+  h3{
+    font-weight: 400;
+  }
+}
+.search-info{
+  h2{
+    margin:0px;
+    text-transform: uppercase;
+    font-weight: 800;
+  }
+  p {
+    margin:0px;
+  }
+}
+
+#adventureInfo {
+  h2{
+    margin: 40px 0px 0px 0px;
+    padding: 0px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  h5 {
+    text-transform: uppercase;
+    font-weight: 400;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+  }
+  p{
+    line-height: 1.5;
+    margin: 10px 0px;
+  }
+}
+
+#aboutInfo {
+  h1{ 
+    margin:0px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  h2{ 
+    margin:0px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+}
+
+.about-title{
+  position: relative;
+  bottom: 41vh;
+}
+
+.aboutInfo{
+  position: relative;
+  bottom: 5vh;
+}
+
+.findInfo {
+  h1 {
+    margin: 5px 0px;
+    text-align: left;
+    font-weight: bold;
+  }
+  h2{
+    margin:0px;
+    text-align: left;
+    font-weight: bold;
+  }
+  .wpcf7 {
+    label {
+      font-family: sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+      text-transform: uppercase;
+    }
+  }
+}

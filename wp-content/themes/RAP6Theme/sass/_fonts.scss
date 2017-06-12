@@ -1,0 +1,42 @@
+/*--------------------------------------------------------------
+# Embedded Fonts
+--------------------------------------------------------------*/
+@font-face {
+  font-family: 'Novecentosanswide';
+  src:  url('../../assets/fonts/Novecentosanswide/Novecentosanswide-Normal.ttf');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Novecentosanswide';
+  src:  url('../../assets/fonts/Novecentosanswide/Novecentosanswide-DemiBold.ttf');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src:  url('../../assets/fonts/Merriweather/Merriweather-Bold.ttf');
+  font-weight: 800;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src:  url('../../assets/fonts/Merriweather/Merriweather-Light.ttf');
+  font-weight: 100;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src:  url('../../assets/fonts/Merriweather/Merriweather-LightItalic.ttf');
+  font-weight: 200;
+}
+@font-face {
+  font-family: 'Merriweather';
+  src:  url('../../assets/fonts/Merriweather/Merriweather-BoldItalic.ttf');
+  font-weight: 900;
+}
+
+.Novecento {
+	font-family: Novecentosanswide;
+	font-weight: 400;
+}
+.Merriweather {
+	font-family:Merriweather;
+	font-weight: 100;
+}
